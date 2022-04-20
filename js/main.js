@@ -7,13 +7,15 @@ console.log(arr);
 
 
 // 2---
-// let text = 'salom dunyo';
 
-// function reversing(sum) {
+function reversing(sum) {
+    let splitting = sum.split("");
+    let reverser = splitting.reverse();
+    let joining = reverser.join("");
+    return joining;
+}
+console.log(reversing("salom dunyo"));
 
-// }
-
-// reversing(text)
 
 // 3---
 
